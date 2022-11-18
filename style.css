@@ -41,6 +41,7 @@
   border-radius: 2rem;
   width: 95%;
   outline:none;
+   border:none;
   }
   .form h5{
     font-size: 1rem;
