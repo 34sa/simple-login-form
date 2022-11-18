@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: linear-gradient(120deg, rgb(41 128 185), rgb(142 68 173));
+  height: 100vh;
+  padding:2rem;
+ }
+ .login_form{
+  background-color: #eee;
+  height: 30rem;
+  width: 23rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+ }
+ .login_form .h1{
+   text-align: center;
+   padding: 2rem;
+   border-radius: 1rem 1rem 0rem 0rem;
+   background-color: rgb(154, 69, 234);
+   color: #eee;
+ }
+ .form{
+  margin: 1rem;
+  padding: .5rem;
+  display:grid;
+
+ }
+ .form .input{
+  padding: .8rem;
+  font-size: 1rem;
+  margin: .5rem;
+  border: 1px solid rgb(0 0 0);
+  border-radius: 2rem;
+  width: 95%;
+  }
+  .form h5{
+    font-size: 1rem;
+    padding-left: 1.6rem;
+    color: rgb(103 103 103);
+    font-family: Arial, sans-serif;
+   pointer:cursor;
+  }
+  .btn{
+    font-size: 1.6rem;
+    width: 90%;
+    margin: 1rem 0rem 0rem 1rem;
+    border-radius: 2rem;
+    padding: .5rem;
+    border: none;
+    color: #eee;
+    background: linear-gradient(120deg, rgb(41 128 185), rgb(142 68 173));
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  .btn:hover{
+    transition: all  .3s ease-in;
+    background: linear-gradient(120deg,  rgb(142 68 173), rgb(41 128 185));
+  }
+  .form p{
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+    color: blueviolet;
+  }
+  span{
+    padding-left: .5rem;
+    color: blue;
+    text-decoration: underline;
+  }
+  span:hover{
+    font-weight: 600;
+    padding-left: .5rem;
+    color: rgb(68, 68, 252);
+    border-bottom: 1rem;
+
+  }
